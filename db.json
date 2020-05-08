@@ -1,18 +1,18 @@
 {
   "logs": [
     {
+      "id": 1,
       "message": "Change network card on server 007",
       "attention": false,
-      "tech": "Sam Smith",
-      "date": "2020-05-08T18:24:30.483Z",
-      "id": 1
+      "tech": "John Doe",
+      "date": "2020-05-08T18:57:43.835Z"
     },
     {
-      "message": "Hard drive failed in workstation 002",
-      "attention": true,
-      "tech": "Sara Williams",
-      "date": "2020-05-08T18:24:48.199Z",
-      "id": 2
+      "id": 2,
+      "message": "Fixed hard drive on workstation 003",
+      "attention": false,
+      "tech": "John Doe",
+      "date": "2020-05-08T18:58:42.840Z"
     },
     {
       "message": "Network card changed on 008",
