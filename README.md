@@ -13,16 +13,19 @@ This app was created as a final part of [Brad Traversy](https://www.traversymedi
 
 ## Dependencies
 
-| Front-end     |
-| ------------- |
-| react         |
-| react-dom     |
-| react-scripts |
+| Front-end       | Redux                    |
+| --------------- | ------------------------ |
+| react           | redux                    |
+| react-dom       | react-redux              |
+| react-scripts   | redux-thunk              |
+| materialize-css | redux-devtools-extension |
+| moment          |                          |
+| react-moment    |                          |
 
 ### Dev dependencies
 
 -   concurrently
--   json-server (provides fake back-end API for development)
+-   json-server (for back-end)
 
 ## Current state
 
