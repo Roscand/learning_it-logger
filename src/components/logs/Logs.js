@@ -3,6 +3,7 @@ import React, { useState, useEffect } from "react";
 
 // components //
 import LogItem from "./LogItem";
+import Preloader from "../layout/Preloader";
 
 // Logs component //
 const Logs = () => {
@@ -23,7 +24,7 @@ const Logs = () => {
     };
 
     if (loading) {
-        return <h4>Loading...</h4>;
+        return <Preloader />;
     }
 
     return (
