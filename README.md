@@ -5,11 +5,11 @@ This app was created as a final part of [Brad Traversy](https://www.traversymedi
 
 ## Functionality
 
--   Add & remove IT technitians
+-   Add & remove IT technicians
 -   Add, update & remove log messages
 -   Mark & unmark a message as urgent
--   Filter logs by message text or technitian name
--   Each log contains info about technitian, log message, urgency status and added date
+-   Filter logs by message text or technician name
+-   Each log contains info about technician, log message, urgency status and added date
 
 ## Dependencies
 
