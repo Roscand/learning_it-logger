@@ -29,4 +29,5 @@ This app was created as a final part of [Brad Traversy](https://www.traversymedi
 
 ## Current state
 
-Project started in May 2020.
+Project finished in May 2020.
+Currently there's no live production of it.
