@@ -14,6 +14,7 @@ import AddBtn from "./components/layout/AddBtn";
 // modals //
 import AddLogModal from "./components/logs/AddLogModal";
 import EditLogModal from "./components/logs/EditLogModal";
+import AddTechModal from "./components/techs/AddTechModal";
 
 // App component //
 const App = () => {
@@ -28,6 +29,7 @@ const App = () => {
                 <AddBtn />
                 <AddLogModal />
                 <EditLogModal />
+                <AddTechModal />
                 <Logs />
             </div>
         </Fragment>

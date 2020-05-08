@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import M from "materialize-css/dist/js/materialize.min.js";
 
-// AddLogModal component //
+// EditLogModal component //
 const EditLogModal = () => {
     const [message, setMessage] = useState("");
     const [attention, setAttention] = useState(false);
