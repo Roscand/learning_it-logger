@@ -2,15 +2,23 @@
 import React from "react";
 import PropTypes from "prop-types";
 
+// redux //
+import { connect } from "react-redux";
+import { deleteTech } from "../../actions/techActions";
+
 // components //
 
 // TechItem component //
-const TechItem = ({ tech }) => {
+const TechItem = ({ tech, deleteTech }) => {
+    const { firstName, lastName, id } = tech;
     return (
         <li className='collection-item'>
             <div>
-                {tech.firstName} {tech.lastName}
-                <a href='#!' className='secondary-content'>
+                {firstName} {lastName}
+                <a
+                    href='#!'
+                    className='secondary-content'
+                    onClick={() => deleteTech(id)}>
                     <i className='material-icons grey-text'>delete</i>
                 </a>
             </div>
@@ -20,6 +28,7 @@ const TechItem = ({ tech }) => {
 
 TechItem.propTypes = {
     tech: PropTypes.object.isRequired,
+    deleteTech: PropTypes.func.isRequired,
 };
 
-export default TechItem;
+export default connect(null, { deleteTech })(TechItem);
