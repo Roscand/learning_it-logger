@@ -8,6 +8,7 @@ import "./App.css";
 
 // components //
 import SearchBar from "./components/layout/SearchBar";
+import Logs from "./components/logs/Logs";
 
 // App component //
 const App = () => {
@@ -18,6 +19,9 @@ const App = () => {
     return (
         <Fragment>
             <SearchBar />
+            <div className='container'>
+                <Logs />
+            </div>
         </Fragment>
     );
 };
